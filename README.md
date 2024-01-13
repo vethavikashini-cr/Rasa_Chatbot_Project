@@ -14,7 +14,7 @@ Welcome to the Restaurant Chatbot project! This chatbot is designed to assist cu
 - **Data:**
   - `data/nlu.yml`: Contains examples for training the Natural Language Understanding (NLU) model.
   - `data/stories.yml`: Defines sample conversations for training the dialogue model.
-  - `data/domain.yml`: Specifies the domain, including intents, entities, and actions.
+  - `domain.yml`: Specifies the domain, including intents, entities, and actions.
   
 - **Model Configuration:**
   - `config.yml`: Configures the Rasa NLU and Core pipeline, including the SentimentAnalyzer.
