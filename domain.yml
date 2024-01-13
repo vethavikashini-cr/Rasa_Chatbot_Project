@@ -1,0 +1,63 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - what_do_you_have
+  - vegetarian
+  - non_vegetarian
+  - order_name_veg
+  - order_name_non_veg
+
+responses:
+  utter_info:
+  - text: "Here is the link to the same [ ]{link}"
+
+  utter_botgreet:
+  - text: "How can I help you?"
+
+  utter_veg_non_veg:
+  - text: "What is your cusine preference?"
+
+  utter_veg:
+  - text: "We have fries with blue cheese, vegan burger and a non-dairy milkshake"
+
+  utter_nonveg:
+  - text: "We have omlette, steak and prawn soup!"
+
+  utter_anythingelse:
+  - text: "Awesome! do you need anything else?"
+
+  utter_thanks:
+  - text: "Thanks for your order! You will be receiving it shortly!"
+
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+entities:
+  - LINK
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
