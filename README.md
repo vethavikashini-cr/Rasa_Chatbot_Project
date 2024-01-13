@@ -21,7 +21,7 @@ Welcome to the Restaurant Chatbot project! This chatbot is designed to assist cu
 
 ## Dataset
 
-The dataset for this chatbot is carefully curated to cover a range of customer interactions. It includes examples for different intents, entities, and scenarios related to restaurant services.
+The dataset for this chatbot includes examples for different intents, entities, and scenarios related to restaurant services.
 
 ## Getting Started
 
