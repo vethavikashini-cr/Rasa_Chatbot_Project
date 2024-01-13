@@ -25,9 +25,13 @@ The dataset for this chatbot includes examples for different intents, entities, 
 
 ## Getting Started
 
-1. Install Rasa: `pip install rasa`
-2. Train the Model: `rasa train`
-3. Run the Chatbot: `rasa shell`
+1. Install Rasa: `pip install rasa-x --extra-index-url https://pypi.rasa.com/simple`
+2. Install Spacy modalities for Rasa: `pip install rasa[spacy]`
+3. Download Spacy: `python -m spacy download en_core_web_md `
+4. Train the Model: `rasa train`
+5. Run the Chatbot: `rasa shell`
 
+### rasa_chatbot.py can be run to note down the various outputs that are given by the trained model along with their confidence scores.
+### The test folder has the confusion matrix images which was obtained by running the model in the test mode.
 
 Happy chatting and dining! 🍽️🤖
