@@ -17,11 +17,11 @@ Welcome to the Restaurant Chatbot project! This chatbot is designed to assist cu
   - `domain.yml`: Specifies the domain, including intents, entities, and actions.
   
 - **Model Configuration:**
-  - `config.yml`: Configures the Rasa NLU and Core pipeline, including the SentimentAnalyzer.
+  - `config.yml`: Configures the Rasa NLU and Core pipeline.
 
 ## Dataset
 
-The dataset for this chatbot includes examples for different intents, entities, and scenarios related to restaurant services.
+The dataset for this chatbot includes examples of different intents, entities, and scenarios related to restaurant services.
 
 ## Getting Started
 
@@ -32,6 +32,6 @@ The dataset for this chatbot includes examples for different intents, entities, 
 5. Run the Chatbot: `rasa shell`
 
 ### rasa_chatbot.py can be run to note down the various outputs that are given by the trained model along with their confidence scores.
-### The test folder has the confusion matrix images which was obtained by running the model in the test mode.
+### The test folder has the confusion matrix images which were obtained by running the model in the test mode.
 
 Happy chatting and dining! 🍽️🤖
